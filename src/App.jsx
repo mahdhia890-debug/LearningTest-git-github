@@ -51,7 +51,7 @@ export default function Displaydata(){
     <>
     <p style={{color:info.color}}>{info.fullname}</p>
     <img src={info.img} style={{width:info.size,height:info.size}}/>
-
+    <p>my age is {info.age}</p>
     </>
   )
 }
